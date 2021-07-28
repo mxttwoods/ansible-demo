@@ -1,0 +1,17 @@
+- hosts: 192.168.215.7
+  user: sysadmin
+  tasks:
+    - name: hello world
+      shell: echo hello world
+
+- hosts: 192.168.215.2
+  user: sysadmin
+  tasks:
+    - name: hello world
+      shell: echo hello world
+
+- hosts: 192.168.215.4
+  user: sysadmin
+  tasks:
+    - name: hello world
+      shell: echo hello world

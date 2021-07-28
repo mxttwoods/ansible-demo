@@ -1,0 +1,8 @@
+[sites]
+192.168.215.4 # oracle
+192.168.215.7 # rocky
+192.168.215.2 # ubuntu
+
+[sites:vars]
+ansible_user=XXXX
+ansible_password=YYYY
